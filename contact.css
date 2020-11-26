@@ -1,0 +1,58 @@
+#gifimg>img {
+    width: 100%; 
+    padding-top: 75px;
+}
+
+
+.btn {
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#contact {
+    background-color: #ededed;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+
+#contact i {
+    color: black;
+    font-size: 1.3em;
+    padding: 5px;
+}
+
+#contact h1 {
+    padding: 10px 0px;
+}
+
+.sendmail {
+    color: black;
+}
+
+.sendmail:hover {
+    color: #418fde;
+}
+
+#snapchattxt {
+    position: relative;
+    left: 45px;
+}
+
+
+@media screen and (max-width: 1000px) {
+    
+    #gifimg>img {
+    width: 90%;
+        padding-top: 0px;
+    
+}
+    #gifimg {
+        text-align: center;
+        margin: 20px;
+    }
+    
+
+}

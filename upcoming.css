@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "GIORGIO";
+     src: url("fonts/Giorgio-Thin.ttf");
+    
+}
+
+@font-face {
+    font-family: "Neuzeit";
+     src: url("fonts/NeuzeitSLTStd-Book.otf");
+    
+}
+
+p {
+    font-family: "Neuzeit";
+    font-size: 0.9em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "GIORGIO";
+    font-weight: 900;
+}
+
+
+#thetalk {
+    width: 50%;
+    margin-top: 20px;
+    background-color: #ededed;
+    padding: 30px;
+}
+
+#instaposter {
+    text-align: center;
+    
+}
+
+#instaposter img {
+    height: 700px;
+}
+
+#thetalk>h1 {
+    color: #418fde;
+    
+}
+
+#thetalk>h1 {
+    text-align: center;
+}
+
+#caroselprevious {
+    width: 90%;
+    margin-top: 100px;
+}
+
+#caroselprevious h1 {
+    text-align: center;
+    padding: 25px;
+}
+
+#caroselprevious a {
+    color: #418fde;
+    
+}
+
+#caroselprevious h3 {
+    text-align: center;
+    padding: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+       p {
+    font-size: 0.85em;
+}
+    #thetalk {
+    width: 90%;
+    margin-top: 20px;
+}
+    #instaposter img {
+    width: 90%;
+        height: 100%;
+}
+
+}

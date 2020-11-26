@@ -1,0 +1,209 @@
+@font-face {
+    font-family: "GIORGIO";
+     src: url("fonts/Giorgio-Thin.ttf");
+    
+}
+
+@font-face {
+    font-family: "Neuzeit";
+     src: url("fonts/NeuzeitSLTStd-Book.otf");
+    
+}
+
+p {
+    font-family: "Neuzeit";
+    font-size: 0.9em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "GIORGIO";
+    font-weight: 900;
+}
+
+#aboutuspic {
+    width: 100%;
+    height: 600px;
+    background-image: url(images/Pictures/31.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+
+#ourvision {
+    color: snow;
+    text-align: center;
+}
+
+#ourvision>img {
+    width: 50%;
+    
+}
+
+.icon {
+    text-align: center;
+}
+
+#visionbackground {
+    background-color: #418fde;
+    padding-bottom: 50px;
+}
+
+
+.card-img-top {
+    width: 50%;
+}
+
+#board {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+#board h1 {
+    color: #418fde;
+}
+#board p {
+    font-size: 1.1em;
+}
+
+#members .col-md-5>img {
+    width: 70%;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+#members .col-md-5>img:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+    transition: 0.5s;
+}
+
+.list-group {
+    width: 10%;
+    position: sticky;
+    top: 140px;
+    left: 50px;
+}
+
+#members p {
+    text-align: justify;
+    line-height: 28px;
+}
+
+#members  {
+    background-color: #ededed;
+    padding: 20px;
+}
+
+.credit {
+    text-align: right;
+    background-color: #418fde; 
+    margin-bottom: 0px;
+    color: lightgray;
+    padding-right: 10px;
+}
+
+.col-md-7 {
+    margin-bottom: 50px;
+}
+
+.col-md-7 h2 {
+   padding-top: 40px;
+}
+
+.col-md-7 i {
+    color: black;
+    font-size: 1.3em;
+    margin: 5px 10px 5px 0px;
+}
+
+.col-md-7 h2 {
+    color: #418fde;
+}
+
+#dalia {
+    position: relative;
+    top: 80px;
+    
+}
+
+#roberto {
+    position: relative;
+    top: 120px;
+}
+
+.mobilemember {
+    display: none;
+}
+
+#maria img {
+    height: 85%;
+}
+
+#peter {
+    position: relative;
+    top: 60px;
+}
+
+.col-md-7 i:hover {
+    transform: scale(1.1);
+    
+}
+
+@media screen and (max-width: 1000px) {
+    
+       p {
+    font-size: 0.85em;
+}
+    .list-group {
+        display: none;
+    }
+    
+    #board {
+    width: 95%;
+    
+}
+    #board p {
+    font-size: 0.9em;
+    text-align: justify;
+}
+    #dalia {
+    top: 0px;
+    
+}
+    #roberto {
+    top: 0px;
+}
+    #peter {
+    top: 0px;
+}
+
+    #aboutuspic {
+    background-attachment: initial;
+    }
+    
+    .col-md-5 {
+        text-align: center;
+    }
+    
+    .mobilemember {
+    display: block;
+    }
+    .mobilehide {
+        display: none;
+    }
+    
+    .mobilemember button {
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    
+    #members .col-md-5>img:hover {
+    transform: scale(1);
+    opacity: 1;
+}
+}

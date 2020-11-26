@@ -1,0 +1,363 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+@font-face {
+    font-family: "GIORGIO";
+     src: url("fonts/Giorgio-Thin.ttf");
+    
+}
+
+@font-face {
+    font-family: "Neuzeit";
+     src: url("fonts/NeuzeitSLTStd-Book.otf");
+    
+}
+
+p {
+    font-family: "Neuzeit";
+    font-size: 0.9em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "GIORGIO";
+    font-weight: 900;
+}
+
+.theme-week {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.theme-week>a {
+    margin: 0px 30px;
+}
+
+
+.theme-week>p {
+    font-size: 1.2em;
+}
+
+
+.theme-week>h4 {
+    text-decoration: underline;
+}
+
+.theme-week2 {
+    color: snow;
+    padding: 10px 0px;
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    text-align: justify;
+}
+
+.theme-week2>p>span {
+    text-decoration: underline;
+}
+
+.theme-week2>p {
+    font-size: 1.1em;
+}
+
+.theme-background {
+    background-color: rgb(65,143,222);
+}
+
+.jumbotron {
+    background-color: white;
+    padding-top: 10px;
+}
+
+
+
+#sdgposter {
+    opacity: 0.9;
+}
+
+
+
+#three {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#card_poster {
+    width: 60%;
+    margin: 0 auto;
+    
+}
+
+#sdgposter{
+    transition: .7s ease-in-out;
+}
+
+
+
+#sdgposter:hover {
+    transform: scale(1.05);
+    opacity: 1;
+    
+   
+    }
+
+#date {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#engage:hover {
+    opacity: 0.9;
+    transition: 1.5s;
+}
+
+#glance {
+    background-color: #418fde;
+    max-height: 1100px;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+
+#text {
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    bottom: 250px;
+    background-color: white;
+    padding: 5px 100px;
+    line-height: 30px;
+    text-align: center;
+}
+
+#text h4 {
+    padding-top: 20px;
+}
+
+.col-6 p {
+    padding-top: 75px;
+    text-align: justify;
+   
+}
+
+
+#mobilecontainer {
+    display: none;
+}
+
+
+
+#three>.row {
+    background-color: #ededed;
+}
+
+#three .col-6 {
+    text-align: center;
+}
+
+
+#sdgvid {
+    margin-bottom: 100px;
+    margin-top: 60px;
+}
+
+#videocarousel {
+    max-width: 60%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+#videocarousel>h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.video-fluid {
+    max-width: 100%;
+
+}
+
+.btn {
+    border-radius: 10px;
+}
+
+#middlerow {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+#newsletter_txt {
+    float: right;
+    width: 45%;
+
+    padding-right: 10%;
+   
+}
+
+#new_newsletter a:hover {
+    cursor: pointer;
+}
+
+#newsletterimg {
+    margin-left: 10%;
+}
+
+#new_newsletter {
+    padding: 2%;
+    width: 30%;
+    height: 340px;
+    margin: 70px auto;
+    border: 5px solid lightgray;
+    border-radius: 20px;
+}
+
+#new_newsletter input {
+    display: inline;
+    
+}
+
+#new_newsletter [type="email"] {
+    width: 70%;
+    margin-left: 10%;
+    margin-top: 5%;
+    
+}
+
+#new_newsletter [type="submit"] {
+    
+    outline: none;
+    border: none;
+    background: url(images/right1.png)no-repeat 1em 1em #418fde;
+    padding: 8px 23px;
+    border-radius: 5px;
+   
+}
+
+#newsletter_button {
+    text-align: center;
+    padding-top: 6%;
+}
+
+#firstbtn {
+    margin-right: 5%;
+}
+
+
+
+
+@media screen and (max-width: 1000px) {
+    
+    p {
+    font-size: 0.85em;
+}
+    
+    .theme-week {
+        width: 90%;
+    }
+    
+    .theme-week2 {
+        width: 90%;
+    }
+    
+    
+    #text {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    bottom: 100px;
+    background-color: white;
+    padding: 10px 20px;
+    text-align: center;
+    }
+    
+    #three {
+        display: none;
+    }
+    
+    #mobilecontainer {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+}
+    #mobilecontainer button {
+        margin: 10px;
+        text-align: center;
+    }
+    
+    #mobilecontainer img {
+        margin: 20px 0px;
+    }
+    
+    #mobilecontainer p {
+       text-align: justify;
+       
+    }
+    
+    #videocarousel {
+    max-width: 90%;
+       
+    
+}
+    
+    .theme-week>a {
+        margin: 0px 5px;
+    }
+    
+    #sdgposter {
+    opacity: 1;
+    }
+    
+    #sdgposter:hover {
+    transform: scale(1.0);
+    opacity: 1;
+    }
+    
+    
+    #lastcard {
+        margin-bottom: 30px;
+    }
+    
+    #card_poster {
+    width: 85%;
+
+}
+    .mobilepic {
+        text-align: center;
+    }
+    
+
+    #new_newsletter {
+        padding: 2%;
+        width: 90%;
+        height: 320px;
+    }
+
+    #new_newsletter img {
+        width: 35%;
+    }
+
+    #newsletter_txt {
+        float: right;
+        width: 45%;
+    
+        padding-right: 5%;
+       
+    }
+   
+
+
+
+
+
+}
+

@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: "GIORGIO";
+     src: url("fonts/Giorgio-Thin.ttf");
+    
+}
+
+#menu {
+    z-index: 9;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+
+    
+
+.nav-link {
+    color: rgba(0, 0, 0, 1) !important;
+    font-size: 18px;
+}
+
+#menu .col-4 p {
+   font-family: "GIORGIO";
+    font-size: 1.6em;
+    font-weight: 600;
+}
+
+
+#social_media img{
+    width: 5%;
+    margin: 0 2%;
+}
+
+#social_media img:hover{
+    opacity: 0.6;
+}
+
+.nav-item:hover {
+    opacity: 0.6;
+}
+#ourprojects:hover {
+    opacity: 1;
+}
+.hover:hover {
+    opacity: 0.6;
+}
+
+.dropdown-item {
+    font-size: 18px;
+}
+
+.dropdown-item:hover {
+    opacity: 0.6;
+}
+
+#menu .col i {
+    padding: 0px 7px;
+    margin-left: 0px;
+    color: black;
+    font-size: 1.5em;
+}
+
+#menu .row { 
+    
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logo {
+    width: 60%;
+}
+
+.dropdown-item:hover {
+    text-decoration: underline;
+}
+
+#mobiletitle {
+    display: none;
+}
+
+@media screen and (max-width: 1000px) {
+    
+    .container1 {
+        display: block;
+    }
+    .logo {
+    width: 100%;
+    }
+    
+    #menu .col-4  {
+        display: none;
+    }
+    
+    .nav-item:hover {
+    opacity: 1;
+    }
+    
+    #menu {
+        position: sticky;
+        top: 0px;
+        background-color: white;
+        z-index: 9;
+    }
+    
+    .dropdown-item:hover {
+    text-decoration: none;
+    }
+    
+    .navbar-toggler {
+        margin: 15px 0px 15px 0px;
+    }
+    
+    #involved {
+        margin-bottom: 10px;
+    }
+    
+    #mobiletitle {
+        display: block;
+        font-family: "GIORGIO";
+        font-weight: 900;
+        padding-top: 5px;
+    }
+
+    .hover:hover {
+        opacity: 1;
+    }
+
+    #social_media img:hover{
+        opacity: 1;
+    }
+
+    .nav-link {
+
+        font-size: 16px;
+    }
+
+    .dropdown-item {
+        font-size: 16px;
+    }
+
+    #social_media img{
+        width: 13%;
+        margin: 0 3%;
+    }
+    
+
+
+
+
+}

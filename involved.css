@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "GIORGIO";
+     src: url("fonts/Giorgio-Thin.ttf");
+    
+}
+
+@font-face {
+    font-family: "Neuzeit";
+     src: url("fonts/NeuzeitSLTStd-Book.otf");
+    
+}
+
+p {
+    font-family: "Neuzeit";
+    font-size: 0.9em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "GIORGIO";
+    font-weight: 900;
+}
+
+#becomemember {
+    width: 45%;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    text-align: center;
+    
+}
+
+#becomemember>h1 {
+    color: #418fde;
+    padding: 20px;
+}
+
+#becomemember>h3 {
+    color: #418fde;
+    padding: 10px;
+}
+
+#becomemember p {
+    text-align: justify;
+}
+
+#becomemember img {
+    padding-bottom: 30px;
+}
+
+#signup {
+    text-align: center;
+    margin: 20px;
+    font-family: "Neuzeit";
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    #becomemember {
+        width: 90%;
+}
+       p {
+    font-size: 0.85em;
+}

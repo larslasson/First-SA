@@ -1,0 +1,232 @@
+@font-face {
+    font-family: "GIORGIO";
+     src: url("fonts/Giorgio-Thin.ttf");
+    
+}
+
+@font-face {
+    font-family: "Neuzeit";
+     src: url("fonts/NeuzeitSLTStd-Book.otf");
+    
+}
+
+p {
+    font-family: "Neuzeit";
+    font-size: 0.9em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "GIORGIO";
+    font-weight: 900;
+}
+
+
+.col-md-4 img {
+    width: 70%
+}
+
+.col-md-8  {
+    text-align: left;
+}
+
+.col-md-8 a {
+    color: black;
+}
+
+#apply {
+    text-decoration: underline;
+}
+
+#shops {
+    margin-top: 30px;
+}
+#workshopintro {
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+#workshopintro .col-sm-8 h2 {
+    width: 70%;
+}
+
+.col-md-3 i {
+    font-size: 1.4em;
+    
+    
+}
+
+.col-md-3 {
+    padding: 0px;
+    
+}
+.col-md-3:hover {
+   transform: scale(1.05);
+    transition: 0.5s;
+    z-index: 1;
+    
+}
+
+#whyjoin {
+    width: 75%;
+    margin-top: 110px;
+}
+
+#whyjoin h3 {
+    padding: 20px;
+}
+
+#whyjoin p {
+    text-align: justify;
+    width: 70%;
+    
+}
+
+#whyjoin .col-md-4 {
+
+    padding: 20px;
+    
+}
+
+#whyjoin img:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+    transition: 0.5s;
+}
+
+#whyjoin h2 {
+    text-align: center;
+}
+
+#workshop1 {
+    background-color: #f2bf5e;
+    padding: 10px;
+    height: 250px;
+}
+#workshop2 {
+    background-color: #ff6161;
+    padding: 10px;
+    height: 250px;
+}
+#workshop3 {
+    background-color: #536eb7;
+    padding: 10px;
+    height: 250px;
+}
+#workshop4 {
+    background-color: #75cba8;
+    padding: 10px;
+    height: 250px;
+}
+
+#partners {
+    margin-top: 100px;
+}
+
+#partners h1 {
+    text-align: center;
+    margin-bottom: 70px;
+}
+#partners .col-md-7 {
+    padding-bottom: 60px
+}
+
+#partners h2 {
+    padding-top: 80px;
+    text-align: left;
+}
+
+#partners p {
+    text-align: left;
+    padding-top: 50px; 
+}
+.col-md-5>a {
+    float: left;
+    padding-top: 10px;
+
+}
+
+#midlink {
+    margin-top: 40px;
+}
+
+#applybutton a {
+    margin: 30px 0px;
+    font-size: 1.2em;
+    
+}
+
+#applybutton {
+    text-align: center;
+}
+
+.btn {
+    border-radius: 10px;
+}
+
+.arrow {
+    text-align: center;
+    
+}
+
+.arrow a {
+    color: black;
+}
+
+@media screen and (max-width: 1000px) {
+       p {
+    font-size: 0.85em;
+}
+    .col-md-3 {
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    
+    #whyjoin {
+        width: 95%;
+    }
+    
+    #whyjoin p {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+   
+    
+}
+    
+    #whyjoin .col-md-4 {
+        margin-bottom: 20px;
+    }
+    #workshopintro .col-sm-8 h2 {
+    width: 100%;
+}
+    #partners h2 {
+        padding-top: 10px;
+    }
+    .col-md-5>a {
+        margin-bottom: 40px;
+    }
+    
+    .col-md-4 {
+        
+        text-align: center;
+    }
+    
+   #shops .col-md-3:hover {
+   transform: scale(1);
+    transition: 0s;
+}
+    #shops .col-md-3:hover {
+   transform: scale(1);
+    transition: 0s;
+    
+}
+    #whyjoin img:hover {
+    transform: scale(1);
+    opacity: 1;
+        transition: 0s;
+}
+
+
+
+}
